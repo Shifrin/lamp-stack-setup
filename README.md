@@ -1,10 +1,19 @@
-# Setting up LAMP stack on WSL2 using Ubuntu v20.04
+# Installing LAMP stack on Windows 10/11 using WSL2
+
+The following guide will help to install the following components in Windows 10/11 using WSL2. And also the guide going through to install 2 versions of PHP with help of PHP-FPM and therefore we can easily choose the version of PHP using `.htaccess`.
+
+1. Linux - The operating system
+2. Apache - The Web Server
+3. MySQL - The Database
+4. PHP - The programming language
+
+> Ubuntu distro used as Linux operating system.
 
 ## Enable WSL2 and Install Ubuntu
 
 `wsl --install`
 
-"Reference: <https://docs.microsoft.com/en-us/windows/wsl/setup/environment>"
+> Above comand should install Ubuntu as default distro, if not please follow the following link: <https://docs.microsoft.com/en-us/windows/wsl/setup/environment>
 
 ## Upgrade Ubuntu to latest (optional)
 
